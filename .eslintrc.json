@@ -1,0 +1,21 @@
+{
+  "extends": ["torchbox", "eslint:recommended", "plugin:import/errors", "plugin:jsx-a11y/recommended", "prettier"],
+  "rules": {
+    "react/prop-types": 0,
+    "no-console": 1
+  },
+  "plugins": ["import", "jsx-a11y"],
+  "parserOptions": {
+    "emcaVersion": 2018,
+    "sourceType": "module",
+    "emcaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "eslint.validate": ["javascript", "typescript", "html"]
+}
